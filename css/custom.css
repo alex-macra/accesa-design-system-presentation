@@ -364,11 +364,10 @@ p {
 
   
   div.world h1, div.world h2 {
-    position: absolute;
+    position: relative;
     left: 50%;
-    transform: translateX(-50%);
     color: #333333;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -381,12 +380,20 @@ p {
   div.world h2 {
     top: 44px;
     font-size: 13px;
-    line-height: 1.6;
+    line-height: 2.6;
     opacity: 0.8;
     border-bottom: 0;
     margin: 10px;
+    opacity: 0.8;
+    border-bottom: 0;
+    margin-top: 10px;
+    padding: 0;
   }
   
+.floor {
+    border-radius: 0!important;
+}
+
   div.world {
     position: absolute;
     width: 600px;
@@ -445,18 +452,18 @@ div.world * {
   
   .cloud {
     height: 20px;
-    right: -160px;
+    right: 0;
     background: transparent !important;
-    width: 100px;
-    top: 60px;
+    width: 200px;
+    top: 0;
     animation: cloud 13s linear infinite;
   }
   .cloud h2:nth-child(1) {
-    top: -60px;
+    top: 0;
     left: -10px;
   }
   .cloud h2:nth-child(2) {
-    top: 60px;
+    top: -10px;
     left: 10px;
   }
   .cloud h2:nth-child(3) {
