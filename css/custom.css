@@ -454,9 +454,13 @@ div.world * {
     height: 20px;
     right: 0;
     background: transparent !important;
-    width: 200px;
+    width: 160px;
+    width: auto;
     top: 0;
-    animation: cloud 13s linear infinite;
+    animation: cloud 6s linear infinite;
+  }
+  .cloud.second {
+    animation: cloud 5.8s linear infinite;
   }
   .cloud h2:nth-child(1) {
     top: 0;
@@ -481,6 +485,31 @@ div.world * {
   .cloud h2:nth-child(6) {
     left: -35px;
     top: 10px;
+  }
+
+  .cloud.second h2:nth-child(1) {
+    top: 93px;
+    left: 10px;
+  }
+
+  .cloud.second h2:nth-child(2) {
+    top: 84px;
+    left: -10px;
+  }
+
+  .cloud.second h2:nth-child(3) {
+    top: -11px;
+    left: -10px;
+  }
+
+  .cloud.second h2:nth-child(4) {
+    top: 70px;
+    left: -10px;
+  }
+
+  .cloud.second h2:nth-child(5) {
+    top: 85px;
+    left: -10px;
   }
   
   .stick {
