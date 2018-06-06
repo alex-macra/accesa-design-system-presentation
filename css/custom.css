@@ -343,11 +343,6 @@ display: inline;
     transition: all 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
 }
 
-body .reveal .backgrounds >div:nth-child(5) {
-    background-size: auto 100%;
-    background-color: #f37540;
-}
-
 body .reveal h2.white {
     color: #fff;
     border-color: #fff;
@@ -679,3 +674,13 @@ div.world * {
     }
   }
   
+
+  .reveal section img.special {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    max-height: 500px;
+    clear: both;
+    margin: 0 auto;
+    display: block;
+  }
