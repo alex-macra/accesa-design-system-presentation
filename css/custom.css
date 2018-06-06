@@ -674,3 +674,13 @@ div.world * {
     }
   }
   
+
+  .reveal section img.special {
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+    max-height: 500px;
+    clear: both;
+    margin: 0 auto;
+    display: block;
+  }
