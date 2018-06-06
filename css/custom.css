@@ -361,6 +361,13 @@ p {
     text-align: left;
 }
 
+.reveal .progress {
+  display: block;
+  bottom: 0;
+  height: 15px;
+  opacity: .4;
+  color: #0197ba;
+}
 
 
 
