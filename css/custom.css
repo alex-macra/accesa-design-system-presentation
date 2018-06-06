@@ -348,6 +348,10 @@ body .reveal h2.white {
     border-color: #fff;
 }
 
+.reveal h2 {
+  text-transform: none!important;
+}
+
 
 body .reveal .backgrounds >div:nth-child(6) {
     background-size: cover;
