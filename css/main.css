@@ -179,7 +179,7 @@ a:hover, a:focus {
 }
 
 .slide-container {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.75em;
   background: #fff;
 }
