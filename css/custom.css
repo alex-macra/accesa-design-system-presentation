@@ -695,3 +695,18 @@ div.world * {
     margin: 0 auto;
     display: block;
   }
+
+  .reveal section img.imgnostyle {
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+    min-height: 600px;top: 0;
+    border: 0;
+    box-shadow: none;
+  }
