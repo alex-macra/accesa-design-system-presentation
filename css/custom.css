@@ -710,3 +710,39 @@ div.world * {
     border: 0;
     box-shadow: none;
   }
+
+  .reddish ul li {
+    position: relative;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .reddish ul {
+    position: relative;
+    color: #f36d4f;
+  }
+
+  .reddish ul li a {
+    color: #f04e29;
+    position: static;
+    font-size: 22px;
+  }
+
+  .reddish ul li a:hover {
+    color: #cc0000;
+  }
+
+  .reddish ul li a small {
+    color: #4a4a4a;
+    position: absolute;
+    top: 8px;
+    margin-left: 15px;
+  }
+
+  .reddish ul li a small::before {
+    content: "(";
+  }
+
+  .reddish ul li a small::after {
+    content: ")";
+  }
