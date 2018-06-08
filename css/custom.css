@@ -711,6 +711,10 @@ div.world * {
     box-shadow: none;
   }
 
+  .reveal section.zero  {
+    top: 0!important;
+  }
+
   .reddish ul li {
     position: relative;
     font-size: 18px;
