@@ -364,7 +364,7 @@ p {
 .reveal .progress {
   display: block;
   bottom: 0;
-  height: 10px;
+  height: 7px;
   opacity: .4;
   color: #0197ba;
 }
@@ -701,12 +701,12 @@ div.world * {
     max-height: 100%;
     width: auto;
     max-width: 100%;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     margin: 0 auto;
     display: block;
-    min-height: 600px;top: 0;
+    min-height: 400px;top: 0;
     border: 0;
     box-shadow: none;
   }
@@ -739,7 +739,7 @@ div.world * {
   .reddish ul li a small {
     color: #4a4a4a;
     position: absolute;
-    top: 8px;
+    top: 13px;
     margin-left: 15px;
   }
 
@@ -750,3 +750,14 @@ div.world * {
   .reddish ul li a small::after {
     content: ")";
   }
+
+  .speaker-controls-notes h4 {
+      display: none;
+  }
+.speaker-controls-notes p {
+   font-size: 16px;
+}
+
+.speaker-controls-notes {
+    font-size: 16px!important;
+}
