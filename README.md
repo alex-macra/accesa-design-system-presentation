@@ -1,5 +1,5 @@
 # Accesa design system presentation
-v 0.6
+v 0.7
 
 # Created using
 
